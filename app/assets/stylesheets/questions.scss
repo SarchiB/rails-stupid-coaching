@@ -1,0 +1,27 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+blockquote {
+  border-left: 10px solid #CCCCCC;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  p {
+    display: block;
+  }
+
+.question {
+  background-color: #F9F9F9;
+  }
+
+.answer {
+  background-color: #FFFEE7;
+  font-weight: bold;
+  }
+
+}
+
+.long-input {
+  width: 400px !important;
+}
+
+// !important becuase we are overwritting bootstrap class form-control
